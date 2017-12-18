@@ -8,10 +8,9 @@ This is the Open-Source Social Continuous-Integration Experiment. Our goal is to
 
 ## How to get involved
 
-*1. Become a part of the community, join [here](https://www.google.com)
- for free.
-*2. Link your github  account
-*3. Checkout the latest version of the head.
+1. Become a part of the community, join [here](https://www.google.com) for free.
+2. Link your github  account
+3. Checkout the latest version of the head.
 
 
 ### Prerequisites
