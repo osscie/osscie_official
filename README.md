@@ -8,7 +8,7 @@ This is the Open-Source, Social, Community-Inspired Experiment. Our goal is to c
 
 ## Join Osscie
 
-Become a part of the community, join [here](https://www.google.com) for free.
+Become a part of the community, [join](https://www.google.com) for free.
 
 
 ## Want to Make Changes?
