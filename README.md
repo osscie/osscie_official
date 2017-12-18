@@ -43,13 +43,13 @@ The goal of Osscie is to make the process of making new changes completely indep
 
 **Rules:**
 
-* _Commit changes in small, manageable, chunks. Osscie started as a barebones site with the intent of many additions to come by the community. Add an app, change the color scheme, update fonts, or fix an error, but don't do it all in one commit!_
+* _Commit changes in small, manageable, chunks. Osscie may seem bare-bones, and thats ok! It's meant to be developed over time by other users. Add an app, change the color scheme, update fonts, or fix an error, but don't do it all in one commit!_
 
 * _Don't change the databse settings or anything that requires modifying environment variables! Your changes will be updated on the server, and then we will run "migrate" then "runserver". If you need the server to do anything else, then your changes won't work!_
 
-* Keep it clean, nothing inappropriate or explicit.
+* _Keep it clean, nothing inappropriate or explicit._
 
-* Test, Test, Test! (Then Test again)! Make sure your code works, all of it. Testing is the least fun part of development, but it's the most important. When you upload your changes, everything goes through rigorous testing before the community can even begin to review it, so make sure you write tests and write clean clode.
+* _Test, Test, Test! (Then Test again)! Make sure your code works, all of it. Testing is the least fun part of development, but it's the most important. When you upload your changes, everything goes through rigorous testing before the community can even begin to review it, so make sure you write tests and write clean code._
 
 
 ### Upload Your Changes
@@ -59,9 +59,9 @@ Make a pull request, it's as simple as that. Your code will be run through a tes
 #### Travis CI
 Travis CI is the continuous integration software that tests your pull-request to make sure everything is going to work out if your changes are implemented. Here's what Travis does to ensure every pull-request is vetted properly:
 
-* Pytest: all tests must pass.
-* Pylint: the code must score greater than 9.0.
-* Coveralls: the package has to be tested well. Write tests when you add code!
+* **Pytest:** all tests must pass.
+* **Pylint:** the code must score greater than 9.0.
+* **Coveralls:** the package has to be tested well. Write tests when you add code!
 
 If your pull-request doesn't pass the above criteria, the pull-request won't be voted on to integrate into Osscie.
 
