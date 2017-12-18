@@ -1,1 +1,2 @@
-# put tests here
+def test_1():
+  assert True
