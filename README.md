@@ -37,9 +37,9 @@ The goal of Osscie is to make the process of making new changes completely indep
 
 * _Test, Test, Test! (Then Test again)! Make sure your code works. Testing is the least fun part of development, but it's the most important. When you upload your changes, everything goes through rigorous testing before the community can even begin to review it, so make sure you write tests and write clean code. Read our "Package Guidelines" section for more info_.
 
-### Get Started
+### Get Started (The Technical Stuff)
 
-#### Link Osscie to Github
+#### Link Your Osscie to Github
 1. [Sign in](https://github.com/login) to or [Join](https://github.com/join) github for free. 
 2. [Link](https://www.google.com) your Osscie profile to your github account.
 
