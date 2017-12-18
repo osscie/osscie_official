@@ -36,9 +36,9 @@ The goal of Osscie is to make the process of making new changes completely indep
 
 * _Don't upload anything malicious or expoloitative._
 
-* _Test, Test, Test! (Then Test again)! Make sure your code works. Testing is the least fun part of development, but it's the most important. When you upload your changes, everything goes through rigorous testing before the community can even begin to review it, so make sure you write tests and write clean code. Read our "Package Guidelines" section for more info_.
+* _Test, Test, Test! (Then Test again)! Make sure your code works. Testing is the least fun part of development, but it's the most important. When you upload your changes, everything goes through rigorous testing before the community can even begin to review it, so make sure you write tests and write clean code. Read our "Package Guidelines" section for more info._
 
-* _Be extremely cautious about modifying important files. Models.py can affect users in the database, Settings.py can change important settings, and travis.yml provides the building and testing of proposed changes. There are many more important files, so we wary of what you change.
+* _Be extremely cautious about modifying important files. Models.py can affect users in the database, Settings.py can change important settings, and travis.yml provides the building and testing of proposed changes. There are many more important files, so we wary of what you change._
 
 ### Get Started (The Technical Stuff)
 #### Link Your Osscie to Github
