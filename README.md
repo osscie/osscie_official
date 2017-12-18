@@ -22,7 +22,7 @@ Osscie is built using Django, a popular web framework written in Python. Don't k
   
 
 
-### Make Smart Changes
+### Be Smart and Follow the Rules
 The goal of Osscie is to make the process of making new changes completely independent of the need for an admin, but that only works if everyone follows some basic rules. Remember the community votes on these changes, so make it easy to review, and make changes everyone would like to see.
 
 **Rules:**
@@ -57,18 +57,60 @@ git update
 ```
 
 
-#### Set up the Development Environment
+#### Install the Basics
 * Install the latest version of Python 3. [https://www.python.org/downloads/]
-* Install pip. 
+* Install Pip, it makes installing packages in Python easy.
 
+### Set Up the Virtual Environment
+It is standard to set up a "virtual environment" when developing, testing, and executing any Python package. A virtual environment is necessary for testing in the environment you wish to deploy in, ignoring any variables in your system's current environment. A better explanation can be found [here](https://www.google.com)
+
+Virtualenv will be the software we use to create our virtual environment. Install it through pip.
+```
+pip install virtualenv
+```
+
+Create the virtual environment by navigation to the root of the package (where setup.py and readme.md live), and run:
+```
+python virtualenv venv
+```
+
+Your virtual environment is called "venv". Go ahead and activate it in Linux using:
+```
+venv/scripts/activate
+```
+or in Windows using:
+```
+cenv\Scripts\activate.bat
+```
+
+The last step is to install everything we need:
+```
+pip install -r requirements.txt
+pip install .
+```
+
+You are good to develop! Always develop with a virtualenv activated, and deactivate it anytime by typing:
+```
+Deactivate
+```
 
 #### Upload Your Changes
 Make a pull request, it's as simple as that. Your code will be run through a test script, and if it passes, you can find your changes [here](https://www.google.com).
 **_Note: Your pull-request will be ignored if your github account isn't linked to your Osscie. We want invested Osscie community members to make changes, not randos._**
 
 
-##### Travis CI
-Travis CI is the continuous integration software that tests your pull-request to make sure everything is going to work out if your changes are implemented. Here's what Travis does to ensure every pull-request is vetted properly:
+#### Let Democracy Happen
+If all is well, the Osscie community can find pull-requests [here](https://www.google.com) and approve or downvote them. If you want your changes to be the new version of Osscie, you must get a majority of all active members within the last two weeks to approve your changes.
+
+
+## Package Structure
+This section will walk users through the important files and organization of the Osscie Django package.
+
+## Testing
+This section will walk users through the testing process Osscie uses behind the scenes to vet pull-requests and keep the website as healthy as possible.
+
+###Travis CI
+Travis CI is the continuous integration software that tests your pull-request to make sure everything is going to work out if your changes are implemented. You can find the 
 
 * **Pytest:** all tests must pass.
 * **Pylint:** the code must score greater than 9.0.
@@ -77,8 +119,8 @@ Travis CI is the continuous integration software that tests your pull-request to
 If your pull-request doesn't pass the above criteria, the pull-request won't be voted on to integrate into Osscie.
 
 
-#### Let Democracy Happen
-If all is well, the Osscie community can find pull-requests [here](https://www.google.com) and approve or downvote them. If you want your changes to be the new version of Osscie, you must get a majority of all active members within the last two weeks to approve your changes.
+
+
 
 
 
