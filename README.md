@@ -61,7 +61,7 @@ git update
 * Install the latest version of Python 3. [https://www.python.org/downloads/]
 * Install Pip, it makes installing packages in Python easy.
 
-### Set Up the Virtual Environment
+#### Set Up the Virtual Environment
 It is standard to set up a "virtual environment" when developing, testing, and executing any Python package. A virtual environment is necessary for testing in the environment you wish to deploy in, ignoring any variables in your system's current environment. A better explanation can be found [here](https://www.google.com)
 
 Virtualenv will be the software we use to create our virtual environment. Install it through pip.
@@ -83,7 +83,7 @@ or in Windows using:
 cenv\Scripts\activate.bat
 ```
 
-The last step is to install everything we need:
+The last step is to install everything we need inside the activated virtual environment:
 ```
 pip install -r requirements.txt
 pip install .
@@ -91,16 +91,26 @@ pip install .
 
 You are good to develop! Always develop with a virtualenv activated, and deactivate it anytime by typing:
 ```
-Deactivate
+deactivate
 ```
 
+#### Make Changes!
+Now comes the fun part, make the changes you want. Remember to abide by the rules and create content that other users would approve of.
+
+#### Test, Test, Test
+This is undoubtedly the most important step. We even dedicated a whole section to it. Read it CAREFULLY! [Testing]
+
 #### Upload Your Changes
-Make a pull request, it's as simple as that. Your code will be run through a test script, and if it passes, you can find your changes [here](https://www.google.com).
+Your code works, now make a pull request:
+```
+git pull-request
+```
+It's as simple as that. Your code will be run through a testing procedure using Travis CI, and if it passes, you can find your changes [here](https://www.google.com), ready to be voted on.
 **_Note: Your pull-request will be ignored if your github account isn't linked to your Osscie. We want invested Osscie community members to make changes, not randos._**
 
 
 #### Let Democracy Happen
-If all is well, the Osscie community can find pull-requests [here](https://www.google.com) and approve or downvote them. If you want your changes to be the new version of Osscie, you must get a majority of all active members within the last two weeks to approve your changes.
+If all is well, the Osscie community can find pull-requests [here](https://www.google.com) and approve or downvote them. If you want your changes to be new version of Osscie, you must get a majority of all active members within the last two weeks to approve your changes.
 
 
 ## Package Structure
