@@ -10,16 +10,17 @@ This is the Open-Source Social Continuous-Integration Experiment. Our goal is to
 
 Become a part of the community, join [here](https://www.google.com) for free.
 
+
 ## Want to Make Changes?
-1. [Sign in](https://github.com/login) to or [Join](https://github.com/join) github for free. 
-2. [Link](https://www.google.com) your Osscie profile to your github account.
-
-
 ### About our Code
 
 Osscie is built using Django, a popular web framework written in Python. Don't know it? That's ok, we picked the one of the easiest web frameworks to learn:
 
   [Get Started with Django](https://www.djangoproject.com/start/)
+
+### Git' your Github
+1. [Sign in](https://github.com/login) to or [Join](https://github.com/join) github for free. 
+2. [Link](https://www.google.com) your Osscie profile to your github account.
 
 ### Check out the Current Code
 
