@@ -55,7 +55,7 @@ The goal of Osscie is to make the process of making new changes completely indep
 
 * _Keep it clean, nothing inappropriate or explicit._
 
-*_Don't upload anything malicious expoloitative.
+* _Don't upload anything malicious or expoloitative.
 
 * _Test, Test, Test! (Then Test again)! Make sure your code works. Testing is the least fun part of development, but it's the most important. When you upload your changes, everything goes through rigorous testing before the community can even begin to review it, so make sure you write tests and write clean code._
 
