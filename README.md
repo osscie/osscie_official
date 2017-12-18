@@ -1,10 +1,10 @@
 # Welcome to [Osscie](https://www.google.com) ("oh-see")
 
-This is the Open-Source, Social, Community-Inspired Experiment. Our goal is to make a social website under constant improvement, a product of community driven development and democratic choices. Our website will always run this code, and anyone can modify it, anytime. Here's how it works:
+This is the Open-Source, Social, Community-Inspired Experiment. Our goal is to make a create a website under constant improvement, a product of community driven development and democratic choices. Our website will always run the code found here, and you can modify it, anytime. Here's how it works:
 
-* Any user can make changes, improvements, or additions to our code (pull-requests).
-* The Osscie community discusses and votes on any changes proposed.
-* If users vote in favor of a change, it is automatically pushed into the head, and the website is updated.
+* Any user can make changes, improvements, or additions to our code.
+* The Osscie community discusses and votes on the new code.
+* If users vote in favor of the change, that code will then become the newest version of the website.
 
 ## Join Osscie
 
