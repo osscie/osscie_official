@@ -47,16 +47,17 @@ The goal of Osscie is to make the process of making new changes completely indep
 
 * _Don't change the databse settings or anything that requires modifying environment variables! Your changes will be updated on the server, and then we will run "migrate" then "runserver". If you need the server to do anything else, then your changes won't work!_
 
-* Keep it clean.
+* Keep it clean, nothing inappropriate or explicit.
 
-* Test, Test, Test. If your code is broken or poorly written, the community and our testing environment won't let it pass. Make sure your new and improved Osscie website works.
+* Test, Test, Test! (Then Test again)! Make sure your code works, all of it. Testing is the least fun part of development, but it's the most important. When you upload your changes, everything goes through rigorous testing before the community can even begin to review it, so make sure you write tests and write clean clode.
 
 
 ### Upload Your Changes
-Make a pull request, it's as simple as that. Your pull request will be ignored if your github account isn't linked to your Osscie. We want invested community members to make changes, not randos.
+Make a pull request, it's as simple as that. Your code will be run through a test script, and if it passes, you can find your changes [here](https://www.google.com).
+**_Note: Your pull request will be ignored if your github account isn't linked to your Osscie. We want invested Osscie community members to make changes, not randos._**
 
 #### Travis CI
-Travis CI is the continuous integration software that builds and your pull-request to make sure everything is going to work out if your changes are implemented. Here's what Travis does to ensure every pull-request is vetted properly:
+Travis CI is the continuous integration software that tests your pull-request to make sure everything is going to work out if your changes are implemented. Here's what Travis does to ensure every pull-request is vetted properly:
 
 * Pytest: all tests must pass.
 * Pylint: the code must score greater than 9.0.
@@ -66,6 +67,10 @@ If your pull-request doesn't pass the above criteria, the pull-request won't be 
 
 ### Let Democracy Happen
 If all is well, the Osscie community can find pull-requests [here](https://www.google.com) and approve or downvote them. If you want your changes to be the new version of Osscie, you must get a majority of all active members within the last two weeks to approve your changes.
+
+
+
+
 
 
 ## TODO
