@@ -34,20 +34,20 @@ Make sure you have the latest version checked out!
 git update
 ```
 ### Set up the Development Environment
-*Install the latest version of Python 3. [https://www.python.org/downloads/]()
-*Install pip. 
+* Install the latest version of Python 3. [https://www.python.org/downloads/]
+* Install pip. 
 
 
 ### Make Smart Changes
 The goal of Osscie is to make the process of making new changes completely independent of the need for an admin, but that only works if the community follows some basic rules. Remember the community votes on these changes, so make it easy to review, and beneficial for everyone involved.
 
-*Commit changes in small, manageable, chunks. Osscie started as a barebones site with the intent of many additions to come by the community. Add an app, change the color scheme, update fonts, or fix an error, but don't do it all in one commit!
+* Commit changes in small, manageable, chunks. Osscie started as a barebones site with the intent of many additions to come by the community. Add an app, change the color scheme, update fonts, or fix an error, but don't do it all in one commit!
 
-*Don't change the databse settings or anything that requires modifying environment variables! Your changes will be updated on the server, and then we will run "migrate" then "runserver". If you need the server to do anything else, then your changes won't work!
+* Don't change the databse settings or anything that requires modifying environment variables! Your changes will be updated on the server, and then we will run "migrate" then "runserver". If you need the server to do anything else, then your changes won't work!
 
-*Keep it clean.
+* Keep it clean.
 
-*Test, Test, Test. If your code is broken or poorly written, the community and our testing environment won't let it pass. Make sure your new and improved Osscie website works.
+* Test, Test, Test. If your code is broken or poorly written, the community and our testing environment won't let it pass. Make sure your new and improved Osscie website works.
 
 
 ### Upload Your Changes
