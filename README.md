@@ -8,11 +8,11 @@ This is the Open-Source Social Continuous-Integration Experiment. Our goal is to
 
 ## Join Osscie
 
-1. Become a part of the community, join [here](https://www.google.com) for free.
+Become a part of the community, join [here](https://www.google.com) for free.
 
 ## Want to Make Changes?
-2. [Sign in](https://github.com/login) to or [Join](https://github.com/join) github for free. 
-3. [Link](https://www.google.com) your Osscie profile to your github account.
+1. [Sign in](https://github.com/login) to or [Join](https://github.com/join) github for free. 
+2. [Link](https://www.google.com) your Osscie profile to your github account.
 
 
 ### About our Code
