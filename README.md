@@ -1,4 +1,4 @@
-# Welcome to [Osscie](https://www.google.com) ("ah-see")
+# Welcome to [Osscie](https://www.google.com) ("_ah-see_")
 
 This is the Open-Source, Social, Community-Inspired Experiment. Our goal is to create a website under constant improvement, a product of community driven development and democratic choices. Osscie will always be running the code found here, and you can modify it however and whenever you want. Here's how it works:
 
