@@ -3,8 +3,8 @@
 This is the Open-Source Social Continuous-Integration Experiment. Our goal is to make a social website under constant improvement, a product of community driven development and democratic choices. Our website runs the code shown here, and anyone can modify it. Here's how it works:
 
 * Any user can make changes, improvements, or additions to our code (pull-requests).
-* The community discusses and votes on any changes proposed.
-* If people vote in favor of a change, it is automatically pushed into the head, and the website is updated.
+* The Osscie community discusses and votes on any changes proposed.
+* If users vote in favor of a change, it is automatically pushed into the head, and the website is updated.
 
 ## Join Osscie
 
