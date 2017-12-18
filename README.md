@@ -23,10 +23,16 @@ Osscie is built using Django, a popular web framework written in Python. Don't k
 2. [Link](https://www.google.com) your Osscie profile to your github account.
 
 ### Get the Code
-Check out the latest code by using the [Clone or Download] button (the big green one above), or use your local git commands:
+Clone or Download out latest code (the big green one above), or use your local git commands:
 
 ```
-git clone https://
+git clone https://github.com/osscie/osscie_official.git
+```
+
+Make sure you have the latest version checked out!
+```
+git update
+```
 
 
 
