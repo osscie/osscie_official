@@ -33,8 +33,8 @@ Make sure you have the latest version checked out!
 ```
 git update
 ```
-### Your Development Environment
-*Install the latest version of Python 3. [https://www.python.org/downloads/]
+### Set up the Development Environment
+*Install the latest version of Python 3. [https://www.python.org/downloads/]()
 *Install pip. 
 
 
@@ -50,7 +50,7 @@ The goal of Osscie is to make the process of making new changes completely indep
 *Test, Test, Test. If your code is broken or poorly written, the community and our testing environment won't let it pass. Make sure your new and improved Osscie website works.
 
 
-### Uploading your Changes
+### Upload Your Changes
 Make a pull request, it's as simple as that. Your pull request will be ignored if your github account isn't linked to your Osscie. We want invested community members to make changes, not randos.
 
 #### Travis CI
