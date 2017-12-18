@@ -6,9 +6,11 @@ This is the Open-Source, Social, Community-Inspired Experiment. Our goal is to c
 * The Osscie community votes on the adoption of the new changes.
 * If users vote in favor of the change, that code will become the newest version of the website.
 
+
 ## Join Osscie
 
 Become a part of the community, [join](https://www.google.com) for free.
+
 
 
 ## Want to Make Changes?
@@ -17,10 +19,12 @@ Become a part of the community, [join](https://www.google.com) for free.
 Osscie is built using Django, a popular web framework written in Python. Don't know it? That's ok, we picked the one of the easiest web frameworks to learn:
 
   [Get Started with Django](https://www.djangoproject.com/start/)
+  
 
 ### Link Osscie to Github
 1. [Sign in](https://github.com/login) to or [Join](https://github.com/join) github for free. 
 2. [Link](https://www.google.com) your Osscie profile to your github account.
+
 
 ### Checkout the Code
 Clone or Download the latest code (the big green one above), or use your local git commands:
@@ -33,6 +37,8 @@ Make sure you have the latest version checked out!
 ```
 git update
 ```
+
+
 ### Set up the Development Environment
 * Install the latest version of Python 3. [https://www.python.org/downloads/]
 * Install pip. 
@@ -43,18 +49,21 @@ The goal of Osscie is to make the process of making new changes completely indep
 
 **Rules:**
 
-* _Commit changes in small, manageable, chunks. Osscie may seem bare-bones, and thats ok! It's meant to be developed over time by other users. Add an app, change the color scheme, update fonts, or fix an error, but don't do it all in one commit!_
+* _Commit changes in small, manageable, chunks. Osscie may seem bare-bones, and thats ok! It's meant to be developed over time by other users. Add an app, change the color scheme, update fonts, fix an error, or even add to this list of rules! But don't do it all in one commit, Rome wasn't built in a day!_
 
 * _Don't change the databse settings or anything that requires modifying environment variables! Your changes will be updated on the server, and then we will run "migrate" then "runserver". If you need the server to do anything else, then your changes won't work!_
 
 * _Keep it clean, nothing inappropriate or explicit._
+
+*_Don't upload anything malicious expoloitative.
 
 * _Test, Test, Test! (Then Test again)! Make sure your code works. Testing is the least fun part of development, but it's the most important. When you upload your changes, everything goes through rigorous testing before the community can even begin to review it, so make sure you write tests and write clean code._
 
 
 ### Upload Your Changes
 Make a pull request, it's as simple as that. Your code will be run through a test script, and if it passes, you can find your changes [here](https://www.google.com).
-**_Note: Your pull request will be ignored if your github account isn't linked to your Osscie. We want invested Osscie community members to make changes, not randos._**
+**_Note: Your pull-request will be ignored if your github account isn't linked to your Osscie. We want invested Osscie community members to make changes, not randos._**
+
 
 #### Travis CI
 Travis CI is the continuous integration software that tests your pull-request to make sure everything is going to work out if your changes are implemented. Here's what Travis does to ensure every pull-request is vetted properly:
@@ -64,6 +73,7 @@ Travis CI is the continuous integration software that tests your pull-request to
 * **Coveralls:** the package has to be tested well. Write tests when you add code!
 
 If your pull-request doesn't pass the above criteria, the pull-request won't be voted on to integrate into Osscie.
+
 
 ### Let Democracy Happen
 If all is well, the Osscie community can find pull-requests [here](https://www.google.com) and approve or downvote them. If you want your changes to be the new version of Osscie, you must get a majority of all active members within the last two weeks to approve your changes.
