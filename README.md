@@ -1,27 +1,27 @@
 # Welcome to [Osscie](https://www.google.com) ("oh-see")
 
-This is the Open-Source Social Continuous-Integration Experiment. Our goal is to make the perfect social website, a product of community driven development and democratic choices. Our website runs the code shown here, and anyone can modify it. Here's how it works:
+This is the Open-Source Social Continuous-Integration Experiment. Our goal is to make a social website under constant improvement, a product of community driven development and democratic choices. Our website runs the code shown here, and anyone can modify it. Here's how it works:
 
 * Any user can make changes, improvements, or additions to our code (pull-requests).
 * The community discusses and votes on any changes proposed.
 * If people vote in favor of a change, it is automatically pushed into the head, and the website is updated.
 
-## How to get involved
+## Join Osscie
 
 1. Become a part of the community, join [here](https://www.google.com) for free.
-2. Link your github  account
-3. Checkout the latest version of the head.
+
+## Want to Make Changes?
+2. [Sign in](https://github.com/login) to or [Join](https://github.com/join) github for free. 
+3. [Link](https://www.google.com) your Osscie profile to your github account.
 
 
-### Prerequisites
+### About our Code
 
-What things you need to install the software and how to install them
+Osscie is built using Django, a popular web framework, written in Python. Don't know it? That's ok, we picked the one of the easiest web frameworks to learn:
 
-```
-Give examples
-```
+*[Get Started with Django](https://www.djangoproject.com/start/)
 
-### Installing
+### Check out the Current Code
 
 A step by step series of examples that tell you have to get a development env running
 
