@@ -1,6 +1,6 @@
 # Welcome to [Osscie](https://www.google.com) ("_ah-see_")
 
-This is the Open-Source, Social, Community-Inspired Experiment. Our goal is to create a website under constant improvement, a product of community driven development and democratic choices. Osscie will always be running the code found here, and you can modify it however and whenever you want. Here's how it works:
+This is Osscie, the Open-Source, Social, Community-Inspired Experiment. Our goal is to create a website under constant improvement, a product of community driven development and democratic choices. Osscie will always be running the code found here, and you can modify it however and whenever you want. Here's how it works:
 
 * Any user can make changes, improvements, or additions to the Osscie code.
 * The Osscie community votes on the adoption of the new changes.
@@ -21,28 +21,6 @@ Osscie is built using Django, a popular web framework written in Python. Don't k
   [Get Started with Django](https://www.djangoproject.com/start/)
   
 
-### Link Osscie to Github
-1. [Sign in](https://github.com/login) to or [Join](https://github.com/join) github for free. 
-2. [Link](https://www.google.com) your Osscie profile to your github account.
-
-
-### Checkout the Code
-Clone or Download the latest code (the big green one above), or use your local git commands:
-
-```
-git clone https://github.com/osscie/osscie_official.git
-```
-
-Make sure you have the latest version checked out!
-```
-git update
-```
-
-
-### Set up the Development Environment
-* Install the latest version of Python 3. [https://www.python.org/downloads/]
-* Install pip. 
-
 
 ### Make Smart Changes
 The goal of Osscie is to make the process of making new changes completely independent of the need for an admin, but that only works if everyone follows some basic rules. Remember the community votes on these changes, so make it easy to review, and make changes everyone would like to see.
@@ -59,13 +37,37 @@ The goal of Osscie is to make the process of making new changes completely indep
 
 * _Test, Test, Test! (Then Test again)! Make sure your code works. Testing is the least fun part of development, but it's the most important. When you upload your changes, everything goes through rigorous testing before the community can even begin to review it, so make sure you write tests and write clean code._
 
+### Get Started
 
-### Upload Your Changes
+#### Link Osscie to Github
+1. [Sign in](https://github.com/login) to or [Join](https://github.com/join) github for free. 
+2. [Link](https://www.google.com) your Osscie profile to your github account.
+
+
+#### Checkout the Code
+Clone or Download the latest code (the big green one above), or use your local git commands:
+
+```
+git clone https://github.com/osscie/osscie_official.git
+```
+
+Make sure you have the latest version checked out!
+```
+git update
+```
+
+
+#### Set up the Development Environment
+* Install the latest version of Python 3. [https://www.python.org/downloads/]
+* Install pip. 
+
+
+#### Upload Your Changes
 Make a pull request, it's as simple as that. Your code will be run through a test script, and if it passes, you can find your changes [here](https://www.google.com).
 **_Note: Your pull-request will be ignored if your github account isn't linked to your Osscie. We want invested Osscie community members to make changes, not randos._**
 
 
-#### Travis CI
+##### Travis CI
 Travis CI is the continuous integration software that tests your pull-request to make sure everything is going to work out if your changes are implemented. Here's what Travis does to ensure every pull-request is vetted properly:
 
 * **Pytest:** all tests must pass.
@@ -75,7 +77,7 @@ Travis CI is the continuous integration software that tests your pull-request to
 If your pull-request doesn't pass the above criteria, the pull-request won't be voted on to integrate into Osscie.
 
 
-### Let Democracy Happen
+#### Let Democracy Happen
 If all is well, the Osscie community can find pull-requests [here](https://www.google.com) and approve or downvote them. If you want your changes to be the new version of Osscie, you must get a majority of all active members within the last two weeks to approve your changes.
 
 
