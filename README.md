@@ -18,11 +18,11 @@ Osscie is built using Django, a popular web framework written in Python. Don't k
 
   [Get Started with Django](https://www.djangoproject.com/start/)
 
-### Git' your Github
+### Link Osscie to Github
 1. [Sign in](https://github.com/login) to or [Join](https://github.com/join) github for free. 
 2. [Link](https://www.google.com) your Osscie profile to your github account.
 
-### Get the Code
+### Checkout the Code
 Clone or Download out latest code (the big green one above), or use your local git commands:
 
 ```
@@ -33,8 +33,40 @@ Make sure you have the latest version checked out!
 ```
 git update
 ```
+### Your Development Environment
+*Install the latest version of Python 3. [https://www.python.org/downloads/]
+*Install pip. 
 
 
+### Make Smart Changes
+The goal of Osscie is to make the process of making new changes completely independent of the need for an admin, but that only works if the community follows some basic rules. Remember the community votes on these changes, so make it easy to review, and beneficial for everyone involved.
+
+*Commit changes in small, manageable, chunks. Osscie started as a barebones site with the intent of many additions to come by the community. Add an app, change the color scheme, update fonts, or fix an error, but don't do it all in one commit!
+
+*Don't change the databse settings or anything that requires modifying environment variables! Your changes will be updated on the server, and then we will run "migrate" then "runserver". If you need the server to do anything else, then your changes won't work!
+
+*Keep it clean.
+
+*Test, Test, Test. If your code is broken or poorly written, the community and our testing environment won't let it pass. Make sure your new and improved Osscie website works.
+
+
+### Uploading your Changes
+Make a pull request, it's as simple as that. Your pull request will be ignored if your github account isn't linked to your Osscie. We want invested community members to make changes, not randos.
+
+#### Travis CI
+Travis CI is the continuous integration software that builds and your pull-request to make sure everything is going to work out if your changes are implemented. Here's what Travis does to ensure every pull-request is vetted properly:
+
+* Pytest: all tests must pass.
+* Pylint: the code must score greater than 9.0.
+* Coveralls: the package has to be tested well. Write tests when you add code!
+
+If your pull-request doesn't pass the above criteria, the pull-request won't be voted on to integrate into Osscie.
+
+### Let Democracy Happen
+If all is well, the Osscie community can find pull-requests [here](https://www.google.com) and approve or downvote them. If you want your changes to be the new version of Osscie, you must get a majority of all active members within the last two weeks to approve your changes.
+
+
+## TODO
 
 A step by step series of examples that tell you have to get a development env running
 
