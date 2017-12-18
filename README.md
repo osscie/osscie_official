@@ -17,9 +17,9 @@ This is the Open-Source Social Continuous-Integration Experiment. Our goal is to
 
 ### About our Code
 
-Osscie is built using Django, a popular web framework, written in Python. Don't know it? That's ok, we picked the one of the easiest web frameworks to learn:
+Osscie is built using Django, a popular web framework written in Python. Don't know it? That's ok, we picked the one of the easiest web frameworks to learn:
 
-*[Get Started with Django](https://www.djangoproject.com/start/)
+  [Get Started with Django](https://www.djangoproject.com/start/)
 
 ### Check out the Current Code
 
