@@ -1,7 +1,10 @@
 # Welcome to OSSCIE ("oh-see")
 
-This is the Open-Source Social Continuous-Integration Experiment. Our goal is to make the perfect social website, a product of community driven development and democratic choices. Our web site is running the most recent commit of the open source code here. Here's what you can do:
+This is the Open-Source Social Continuous-Integration Experiment. Our goal is to make the perfect social website, a product of community driven development and democratic choices. Our web site is running the most recent commit of the open source code here. Here's how it works:
 
+* Any user can make changes, improvements, or additions to our code.
+* The community discusses and votes on any changes proposed.
+* If people vote in favor, the changes are automatically pushed, and the website is updated.
 
 ## Getting Started
 
