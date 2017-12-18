@@ -1,14 +1,18 @@
-# Welcome to OSSCIE ("oh-see")
+# Welcome to [Osscie](https://www.google.com) ("oh-see")
 
-This is the Open-Source Social Continuous-Integration Experiment. Our goal is to make the perfect social website, a product of community driven development and democratic choices. Our web site is running the most recent commit of the open source code here. Here's how it works:
+This is the Open-Source Social Continuous-Integration Experiment. Our goal is to make the perfect social website, a product of community driven development and democratic choices. Our website runs the code shown here, and anyone can modify it. Here's how it works:
 
-* Any user can make changes, improvements, or additions to our code.
+* Any user can make changes, improvements, or additions to our code (pull-requests).
 * The community discusses and votes on any changes proposed.
-* If people vote in favor, the changes are automatically pushed, and the website is updated.
+* If people vote in favor of a change, it is automatically pushed into the head, and the website is updated.
 
-## Getting Started
+## How to get involved
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+*1. Become a part of the community, join [here](https://www.google.com)
+ for free.
+*2. Link your github  account
+*3. Checkout the latest version of the head.
+
 
 ### Prerequisites
 
