@@ -1,4 +1,7 @@
-# project dependencies
+# Testing
 pytest
 pylint
 coveralls
+
+# Production
+django
