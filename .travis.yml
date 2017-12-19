@@ -7,6 +7,6 @@ install:
 # command to run tests
 script:
   - pytest tests # or py.test for Python versions 3.5 and below
-  - pylint osscie | pylint_output.txt
+  - pylint osscie
 after_success:
   - coveralls
