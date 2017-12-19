@@ -1,6 +1,7 @@
 # Testing
 pytest
 pylint
+pylint-django
 coveralls
 
 # Production
