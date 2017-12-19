@@ -1,4 +1,4 @@
-# Welcome to [Osscie](https://www.google.com) ("_ah-see_") [![Build Status](https://travis-ci.org/osscie/osscie_official.svg?branch=master)](https://travis-ci.org/osscie/osscie_official)
+# Welcome to [Osscie](https://www.google.com) ("_ah-see_") [![Build Status](https://travis-ci.org/osscie/osscie_official.svg?branch=master)](https://travis-ci.org/osscie/osscie_official)[![Coverage Status](https://coveralls.io/repos/github/osscie/osscie_official/badge.svg?branch=master)](https://coveralls.io/github/osscie/osscie_official?branch=master)
 
 This is Osscie, the Open-Source, Social, Community-Inspired Experiment. Our goal is to create a social website under constant improvement, a product of community driven development and democratic choices. Osscie will always be running open-source code, and you can modify it however and whenever you want. 
 
