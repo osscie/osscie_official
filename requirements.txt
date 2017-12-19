@@ -1,4 +1,4 @@
 # project dependencies
 pytest
 pylint
-coveralls
+python-coveralls
