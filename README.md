@@ -1,4 +1,4 @@
-# Welcome to [Osscie](https://www.google.com) ("_ah-see_")
+# Welcome to [Osscie](https://www.google.com) ("_ah-see_") [![Build Status](https://travis-ci.org/osscie/osscie_official.svg?branch=master)](https://travis-ci.org/osscie/osscie_official)
 
 This is Osscie, the Open-Source, Social, Community-Inspired Experiment. Our goal is to create a social website under constant improvement, a product of community driven development and democratic choices. Osscie will always be running open-source code, and you can modify it however and whenever you want. 
 
