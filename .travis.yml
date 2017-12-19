@@ -7,4 +7,5 @@ install:
 # command to run tests
 script:
   - pytest tests # or py.test for Python versions 3.5 and below
-  - pylint
+  - pylint osscie
+  - pylint tests
